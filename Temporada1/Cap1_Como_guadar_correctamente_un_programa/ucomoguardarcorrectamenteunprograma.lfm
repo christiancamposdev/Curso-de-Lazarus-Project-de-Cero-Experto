@@ -1,0 +1,28 @@
+object Form1: TForm1
+  Left = 1500
+  Height = 125
+  Top = 126
+  Width = 355
+  BorderStyle = bsDialog
+  Caption = 'Form1'
+  ClientHeight = 125
+  ClientWidth = 355
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 8
+    Width = 332
+    Caption = '¡Hola, bienvenido al curso de programación en Lazarus Project!'
+  end
+  object Button1: TButton
+    Left = 136
+    Height = 22
+    Top = 32
+    Width = 65
+    Caption = 'Saludar'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+end
